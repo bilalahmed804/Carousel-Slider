@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+h1{
+    font-family:cursive;
+    font-size: 42px;
+    text-align: center;
+}
+.carousel {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.carousel-button {
+    background-color: rgba(85, 84, 84, 0.7);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.carousel-button:hover {
+    background-color: rgba(85, 84, 84, 1);
+}
+#gitImage{
+    border-radius: 10px;
+}
+   
